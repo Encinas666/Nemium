@@ -6,27 +6,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://kit.fontawesome.com/03c4ffe7a3.js" crossorigin="anonymous"></script>
         <title>Nemium</title>
+        <link rel="stylesheet" href="variante_B.css">
     </head>
     <body>
         <header class="header"> 
         </header>
-        <div>
+        
+
+        <main class="Container">
             <aside class="aside">
                 <nav class="aside-nav">
                     <div class="themes">
-                      <p class="aside-title">Variantes del proyecto</p>
-                      <ul class="theme-list">
-                        <li><a class="active" href="/index.html">Nemium A</a></li>
-                        <li><a href="./variante-B.html">Nemium B</a></li>
-                        <li><a href="/variante-C.html">Nemium C</a></li>
-                        <li><a href="/variante-D.html">Nemium D</a></li>
-                        <li><a href="/variante-E.html">Nemium E</a></li>
+                      <h3 class="aside-t">Variantes del proyecto</h3>
+                      <ul class="theme-l">
+                        <li> <a class="active" href="/index.html">Nemium A</a></li>
+                        <li> <a href="/variante-B.html">Nemium B</a></li>
+                        <li> <a href="/variante-C.html">Nemium C</a></li>
+                        <li> <a href="/variante-D.html">Nemium D</a></li>
+                        <li> <a href="/variante-E.html">Nemium E</a></li>
                       </ul>
                     </div>
 
-                    <h4>CONTENIDO</h4>
+                    <br>
+                    <h3>Contenido</h3>
 
-                    <details class="dropdown" open>
+                    <details class="drop" open>
                         <summary>Setup</summary>
                         <ol>
                             <li> <a href="#Google-Chrome">Google Chrome</a></li>
@@ -36,22 +40,22 @@
                         </ol>
                     </details>
         
-                    <details class="dropdown">
+                    <details class="drop">
                         <summary>Conceptos esenciales del Desarrollo Web</summary>
                         <ul>
-                            <li> <a href="#HTML">HTML</a> </li>
+                            <li> <a href="#HTML">HTML</a></li>
                             <li> <a href="#Etiquetas">Etiquetas</a></li>
                             <li> <a href="#DOM">DOM</a></li>
                             <li> <a href="#Semántica">Semántica</a></li>
                             <li> <a href="#Atributos">Atributos</a></li>
                             <li> <a href="#CSS">CSS</a></li>
-                            <li> <a href="#Modelo de caja">Modelo de caja</a></li>
+                            <li> <a href="#Modelo_de_caja">Modelo de caja</a></li>
                         </ul>
                     </details>
                 </nav>
             </aside>
             
-            <main class="body">
+            <div class="Sections">
                 <section id="CEHC">
                     <h1>Curso esencial de HTML y CSS</h1>
                     <article class="parrafo">
@@ -108,25 +112,27 @@
     
                 <section id="CEDW">
                     <h2>Conceptos esenciales del Desarrollo Web</h2>
-    
+                    
                     <article id="HTML">
+                        
                         <h3>HTML</h3>
+                        
                         <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
     
-                        <pre>
-                            <code>
+                        <code>
+                                <pre>
                                 &lt;!DOCTYPE html&gt;
                                 &lt;html lang= &quot; en &quot;&gt;
                                     &lt;head&gt;
                                         &lt;meta charset= &quot;UTF-8&quot;&gt;
                                         &lt;meta name= &quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
                                         &lt;title&gt; Document &lt;/title &gt;
-                                    &lt;/head&gt;
-                                    &lt;body&gt;
-                                    &lt;/body&gt;
-                                &lt;/html&gt;
-                            </code>
-                        </pre>
+                                        &lt;/head&gt;
+                                        &lt;body&gt;
+                                        &lt;/body&gt;
+                                    &lt;/html&gt;
+                                </pre>
+                        </code>
                     </article>
     
                     <article id="Etiquetas">
@@ -159,37 +165,37 @@
     
                 </section>
                 
-                <section id="Modelo de caja">
+                <section id="Modelo_de_caja">
                     <h3>Modelo de caja</h3>
                     <article>
                         <h4>El modelo de caja está compuesto por:</h4>
                         <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
-                        <ol>
-                            <li> Tamaño del del contenido / ancho y alto</li>
-                            <li> Padding / Relleno</li> 
-                            <li> Border / Bordes</li>
-                            <li> Margin / Márgenes</li>
-                        </ol>
+                            <ol>
+                                <li> Tamaño del del contenido / ancho y alto.</li>
+                                <li> Padding / Relleno.</li> 
+                                <li> Border / Bordes.</li>
+                                <li> Margin / Márgenes.</li>
+                            </ol>
                     </article>
     
                     <article>
                         <h4>Propiedades físicas para el modelo de caja:</h4>
-                        <ul>
-                            <li> width / height</li>
-                            <li> margin / margin-top | margin-right | margin-bottom | margin-left</li>
-                            <li> border / border-top | border-right | border-bottom | border-left</li>
-                            <li> padding / padding-top | padding-right | padding-bottom | padding-left</li>
-                        </ul>
+                            <ul>
+                                <li> width / height</li>
+                                <li> margin / margin-top | margin-right | margin-bottom | margin-left</li>
+                                <li> border / border-top | border-right | border-bottom | border-left</li>
+                                <li> padding / padding-top | padding-right | padding-bottom | padding-left</li>
+                            </ul>
                     </article>
     
                     <article>
                         <h4>Propiedades lógicas para el modelo de caja:</h4>
-                        <ul>
-                            <li> inline-size / block-size</li>
-                            <li> margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
-                            <li> border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
-                            <li> padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
-                        </ul>
+                            <ul>
+                                <li> inline-size / block-size</li>
+                                <li> margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
+                                <li> border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
+                                <li> padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
+                            </ul>
                     </article>
     
                     <h4>Modelo de caja</h4>
@@ -197,24 +203,23 @@
                 </section>
             
                 <section>
-                    <p>Si tienes alguna pregunta escríbeme a: <a href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a></p>
+                    <p>Si tienes alguna pregunta escríbeme a: <a class="e_link" href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a></p>
+
+
+                    <h4>Suscríbete a nuestro newsletter</h4>
     
                     <form>
-                        <input type="text" placeholder="Nombre" />
-                        <br />
-                        <br />
-                        <input type="email" placeholder="Correo electrónico" />
-                        <br />
-                        <br />
-                        <input type="submit" value="Suscribirme" />
+                        <input type="text" placeholder="Nombre" class= "date"/>
+                        <input type="email" placeholder="Correo electrónico" class="date"/>
+                        <input type="submit" value="Suscribirme" class="btn"/>
                     </form>
                 </section>
-            </main>
-        </div>
+            </div>
+        </main>
         
         <footer class="footer">
             <p class="parrafo">&copy; Leonidas Esteban 2021</p>
-            
+
             <div class="rs-container">
                 <ul>
                     <li><a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a> </li>
